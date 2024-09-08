@@ -1,15 +1,32 @@
-import { useState } from 'react'
-
+import { BrowserRouter, Route, Routes } from 'react-router-dom'
+import About from './Pages/About.jsx'
+import Contact from './Pages/Contact.jsx'
+import Home from './Pages/Home.jsx'
+import Layout from './Pages/Layout.jsx'
+import NotFound from './Pages/NotFound.jsx'
 
 
 function App() {
-  const [count, setCount] = useState(0)
+
 
   return (
     <>
-    <div>
-      <h1>This is the main page!</h1>
-    </div>
+      <BrowserRouter>
+
+        <Routes>
+
+          <Route path='/' element={<Layout />}>
+            
+            <Route index element={<Home />} />
+            <Route path='about' element={<About />} />
+            <Route path='contact' element={<Contact />} />
+            <Route path='*' element={<NotFound />} />
+
+          </Route>
+
+        </Routes>
+
+      </BrowserRouter>
       
     </>
   )
