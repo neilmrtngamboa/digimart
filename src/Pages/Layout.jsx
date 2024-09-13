@@ -31,7 +31,7 @@ function Layout() {
         </div>
       </nav>
 
-      <div className="bg-sky-50 p-5">
+      <div className="">
         <Outlet></Outlet>
       </div>
 
