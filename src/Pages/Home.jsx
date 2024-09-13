@@ -161,8 +161,8 @@ function Home() {
         
         <div className="flex flex-col items-center">
 
-          <div className=" text-white font-thin text-5xl mt-16">Boost your brand productivity.</div>
-          <p className=" text-gray-400 font-extralight mt-5">Contact us now and let's talk about your brand's growth potential!</p>
+          <div className=" text-white font-thin text-5xl mt-16 text-center">Boost your brand productivity.</div>
+          <p className=" text-gray-400 font-extralight mt-5 text-center">Contact us now and let's talk about your brand's growth potential!</p>
           <button className="bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold py-2 px-4 border-b-4
            border-yellow-500 hover:border-yellow-600 hover:text-white rounded mt-5">Grow with us!</button>
 
