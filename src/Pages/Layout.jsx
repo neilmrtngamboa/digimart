@@ -25,15 +25,25 @@ function Layout() {
             <Link to='contact' className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-slate-300 mr-4">
               Contact
             </Link>
-            
+
           </div>
-          
+
         </div>
       </nav>
 
       <div className="">
         <Outlet></Outlet>
       </div>
+
+      <footer class="bg-gray-900 p-5">
+        <p className=" text-gray-300 mt-5">Copyright © 2024 DigiMart </p>
+        <hr class="h-px my-8 bg-gray-700 border-0"/>
+        <div className="flex flex-row gap-2">
+          <a href="" className="text-gray-400 hover:text-gray-500">About</a>
+          <a href="" className="text-gray-400 hover:text-gray-500">Contact</a>
+
+        </div>
+      </footer>
 
 
     </>
