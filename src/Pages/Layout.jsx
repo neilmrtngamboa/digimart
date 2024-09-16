@@ -36,12 +36,20 @@ function Layout() {
       </div>
 
       <footer class="bg-gray-900 p-5">
-        <p className=" text-gray-300 mt-5">Copyright © 2024 DigiMart </p>
+        <p className=" text-gray-300 mt-5">Copyright © 2024 
+        <Link to='/' className="hover:text-gray-400 hover:underline"> DigiMart
+        </Link>
+        </p>
         <hr class="h-px my-3 bg-gray-700 border-0"/>
         <div className="flex flex-row gap-2">
-          <a href="" className="text-gray-400 hover:text-gray-500">About</a>
-          <a href="" className="text-gray-400 hover:text-gray-500">Contact</a>
 
+          <Link to='about'>
+          <p className="text-gray-400 hover:text-gray-500" onClick={scrollY}>About</p>
+          </Link>
+          <Link to='contact'>
+          <p className="text-gray-400 hover:text-gray-500" onClick={scrollY}>Contact</p>
+          </Link>
+  
         </div>
       </footer>
 
