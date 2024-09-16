@@ -105,10 +105,77 @@ function Home() {
 
       </div>
 
-      
+      <section className="bg-gray-800 p-5">
+        <p className="text-white text-4xl text-center font-extrabold">How we can help you?</p>
+        <p className="text-gray-400 text-lg mt-3 text-center mb-5">Here are a few of the questions we get the most. If you don't see what's on your mind, reach out to us anytime on phone, chat, or email.</p>
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-4">
 
-      <section className="bg-gray-800 pb-14">
-        
+          <div className="p-5 text-white">
+            <p className="flex items-center font-bold mb-3 text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+              </svg>
+              Do I need digital marketing for my business?</p>
+            <p className="font-light text-gray-400 text-justify">Yes! In today’s digital age, having a strong online presence is crucial for the growth and success of most businesses. Digital marketing helps you reach a wider audience, engage with your customers, and generate more leads and sales.</p>
+
+          </div>
+
+          <div className="p-5 text-white">
+            <p className="flex items-center font-bold mb-3 text-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+              </svg>
+              How much do your services cost?</p>
+            <p className="font-light text-gray-400 text-justify">Our pricing depends on the scope of the project and the services you need. We offer customizable packages to suit different business needs and budgets. Contact us for a free consultation, and we can provide you with a tailored quote.</p>
+
+          </div>
+
+          <div className="p-5 text-white">
+            <p className="flex font-bold mb-3 text-lg">
+              <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+              </svg>
+              How do you measure the success of a digital marketing campaign?</p>
+            <p className="font-light text-gray-400 text-justify">We track key performance indicators (KPIs) that align with your business goals, such as website traffic, conversion rates, cost-per-lead, return on ad spend (ROAS), and customer acquisition costs. We also use analytics tools to provide detailed reports and insights to ensure the campaign's progress is on track.</p>
+
+          </div>
+
+          <div className="p-5 text-white">
+            <p className="flex items-center font-bold mb-3 text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+              </svg>
+              How will you develop a strategy for my business?</p>
+            <p className="font-light text-gray-400 text-justify">We start by analyzing your business, goals, target audience, competitors, and current digital presence. Based on this analysis, we’ll create a custom digital marketing strategy tailored to your specific objectives. We continuously monitor and optimize the strategy to ensure it delivers the best possible results.</p>
+
+          </div>
+
+          <div className="p-5 text-white">
+            <p className="flex items-center font-bold mb-3 text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+              </svg>
+              Do you work with small businesses?</p>
+            <p className="font-light text-gray-400 text-justify">Yes, we work with businesses of all sizes, from small startups to large enterprises. Our digital marketing strategies are tailored to fit the specific needs and budgets of each client, so we can help small businesses grow their online presence effectively.</p>
+
+          </div>
+
+          <div className="p-5 text-white">
+            <p className="flex items-center font-bold mb-3 text-lg">
+            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-6 me-2">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
+              </svg>
+              Can you guarantee first-page rankings on Google?</p>
+            <p className="font-light text-gray-400 text-justify">No legitimate digital marketing agency can guarantee first-page rankings on Google. SEO is a long-term process influenced by many factors, including competition, keyword difficulty, and Google’s algorithm updates. However, we use best practices to maximize your chances of achieving high rankings and improving visibility over time.</p>
+
+          </div>
+
+        </div>
+
+      </section>
+
+      <section className="bg-gray-950 pb-14">
+
         <div className="flex flex-col items-center">
 
           <div className=" text-white font-thin text-5xl mt-16 text-center">Boost your brand productivity.</div>
@@ -123,7 +190,7 @@ function Home() {
 
       </section>
 
-      
+
 
 
 
