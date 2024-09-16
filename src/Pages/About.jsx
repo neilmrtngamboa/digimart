@@ -147,7 +147,7 @@ function About() {
         
         <div className="flex flex-col items-center p-0">
 
-          <div className="rounded bg-gray-600 drop-shadow-2xl shadow-gray-800 p-5 mt-10 w-11/12 flex flex-col items-center">
+          <div className="rounded bg-gray-600 shadow-inner hover:shadow-2xl shadow-gray-800 p-5 mt-10 w-11/12 flex flex-col items-center">
 
           <div className=" text-white font-semibold text-5xl text-center">Let's talk business</div>
           <p className=" text-gray-400 font-extralight mt-5 text-center">Contact us now and let's talk about your brand's growth potential!</p>
