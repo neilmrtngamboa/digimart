@@ -105,57 +105,7 @@ function Home() {
 
       </div>
 
-      <section className="bg-slate-200">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-          <figure className="max-w-screen-md mx-auto">
-            <blockquote>
-              <p className="text-2xl font-medium text-gray-900">"DigiMart delivered quality results and it helped my business to have more reach locally."</p>
-            </blockquote>
-            <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              <img className="w-6 h-6 rounded-full" src="https://s3p.sofifa.net/ab1ad94fb959fe55a6b391cadec721db570f0172.png"/>
-              <div className="flex items-center divide-x-2 divide-gray-500 ">
-                <div className="pr-3 font-medium text-gray-900">George Gray</div>
-                <div className="pl-3 text-sm font-light text-gray-500">Local Business Owner, Food2Go</div>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section className="bg-gray-300 shadow-inner">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-          <figure className="max-w-screen-md mx-auto">
-            <blockquote>
-              <p className="text-2xl font-medium text-gray-900">"My website gained more traffic since working with DigiMart. Not only that, that website traffic
-              that we gained converted into sales!"</p>
-            </blockquote>
-            <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              <img className="w-6 h-6 rounded-full" src="https://d2zia2w5autnlg.cloudfront.net/176388/profile-6267f5eb5c407-small"/>
-              <div className="flex items-center divide-x-2 divide-gray-500 ">
-                <div className="pr-3 font-medium text-gray-900">Jett Lorenzo</div>
-                <div className="pl-3 text-sm font-light text-gray-500">Owner, MotoTorque</div>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
-
-      <section className="bg-slate-200">
-        <div className="max-w-screen-xl px-4 py-8 mx-auto text-center lg:py-16 lg:px-6">
-          <figure className="max-w-screen-md mx-auto">
-            <blockquote>
-              <p className="text-2xl font-medium text-gray-900">"Working with DigiMart helped us achieve unprecedented growth. We asked and they delivered."</p>
-            </blockquote>
-            <figcaption className="flex items-center justify-center mt-6 space-x-3">
-              <img className="w-6 h-6 rounded-full" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQr7HPF_uJQhBRebp_Jqgj8ROEJ-73H0LUMHQ&s"/>
-              <div className="flex items-center divide-x-2 divide-gray-500 ">
-                <div className="pr-3 font-medium text-gray-900">Kylian Mbappe</div>
-                <div className="pl-3 text-sm font-light text-gray-500">Online Business Owner, Madridista</div>
-              </div>
-            </figcaption>
-          </figure>
-        </div>
-      </section>
+      
 
       <section className="bg-gray-800 pb-14">
         
