@@ -22,6 +22,9 @@ function Layout() {
             <Link to='about' className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-slate-300 mr-4">
               About
             </Link>
+            <Link to='services' className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-slate-300 mr-4">
+              Services
+            </Link>
             <Link to='contact' className="block mt-4 lg:inline-block lg:mt-0 text-slate-200 hover:text-slate-300 mr-4">
               Contact
             </Link>
@@ -45,6 +48,9 @@ function Layout() {
 
           <Link to='about'>
           <p className="text-gray-400 hover:text-gray-500" onClick={scrollY}>About</p>
+          </Link>
+          <Link to='services'>
+          <p className="text-gray-400 hover:text-gray-500" onClick={scrollY}>Services</p>
           </Link>
           <Link to='contact'>
           <p className="text-gray-400 hover:text-gray-500" onClick={scrollY}>Contact</p>

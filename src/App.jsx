@@ -4,6 +4,7 @@ import Contact from './Pages/Contact.jsx'
 import Home from './Pages/Home.jsx'
 import Layout from './Pages/Layout.jsx'
 import NotFound from './Pages/NotFound.jsx'
+import Services from './Pages/Services.jsx'
 
 
 function App() {
@@ -19,6 +20,7 @@ function App() {
             
             <Route index element={<Home />} />
             <Route path='about' element={<About />} />
+            <Route path='services' element={<Services />} />
             <Route path='contact' element={<Contact />} />
             <Route path='*' element={<NotFound />} />
 
