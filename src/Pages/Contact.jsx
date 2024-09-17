@@ -1,4 +1,31 @@
+import React from "react";
+
 function Contact() {
+
+  const [result, setResult] = React.useState("");
+
+  const onSubmit = async (event) => {
+    event.preventDefault();
+    setResult("Sending....");
+    const formData = new FormData(event.target);
+
+    formData.append("access_key", "6ab37722-6275-4245-910c-6741f6791304");
+
+    const response = await fetch("https://api.web3forms.com/submit", {
+      method: "POST",
+      body: formData
+    });
+
+    const data = await response.json();
+
+    if (data.success) {
+      setResult("Form Submitted Successfully");
+      event.target.reset();
+    } else {
+      console.log("Error", data);
+      setResult(data.message);
+    }
+  };
 
 
   return (
@@ -26,12 +53,12 @@ function Contact() {
           <div className="basis-1/2 mt-24">
             <h2 className="text-3xl text-white font-thin">Ready to get started?</h2>
 
-            <div className="flex flex-col gap-3 mt-5">
-              <input className="rounded-md p-2 shadow-lg" type="text" name="name" id="name" placeholder="Your Name" />
-              <input className="rounded-md p-2 shadow-lg" type="email" name="email" id="email" placeholder="Your Email" />
-              <textarea className="rounded-md p-2 shadow-lg" name="message" id="msg" cols="30" rows="4" placeholder="Write your message here..."></textarea>
+            <form onSubmit={onSubmit} className="flex flex-col gap-3 mt-5">
+              <input className="rounded-md p-2 shadow-lg" type="text" name="name" id="name" placeholder="Your Name" required />
+              <input className="rounded-md p-2 shadow-lg" type="email" name="email" id="email" placeholder="Your Email" required/>
+              <textarea className="rounded-md p-2 shadow-lg" name="message" id="msg" cols="30" rows="4" placeholder="Write your message here..." required></textarea>
               <div>
-                <button type="button" class="text-black bg-yellow-400 hover:bg-yellow-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
+                <button type="submit" class="text-black bg-yellow-400 hover:bg-yellow-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
                   Send Message
                   <svg class="rtl:rotate-180 w-3.5 h-3.5 ms-2" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 14 10">
                     <path stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M1 5h12m0 0L9 1m4 4L9 9" />
@@ -41,7 +68,7 @@ function Contact() {
 
 
 
-            </div>
+            </form>
 
 
           </div>
