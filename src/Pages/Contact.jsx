@@ -1,4 +1,5 @@
 import React from "react";
+import Swal from "sweetalert2";
 
 function Contact() {
 
@@ -20,9 +21,27 @@ function Contact() {
 
     if (data.success) {
       setResult("Form Submitted Successfully");
+      Swal.fire({
+        title: "Message sent successfully!",
+        background: "#3d444d",
+        icon: "success",
+        confirmButtonText: 'Ok',
+        confirmButtonColor: '#282d33',
+        color: 'white'
+      });
       event.target.reset();
     } else {
       console.log("Error", data);
+      Swal.fire({
+        title: "Error!",
+        text:'Unable to send message',
+        background: "#3d444d",
+        icon: "error",
+        confirmButtonText: 'Go back',
+        confirmButtonColor: '#282d33',
+        color: 'white'
+      });
+      
       setResult(data.message);
     }
   };
