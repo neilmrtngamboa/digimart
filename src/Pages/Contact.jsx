@@ -29,7 +29,7 @@ function Contact() {
             <div className="flex flex-col gap-3 mt-5">
               <input className="rounded-md p-2 shadow-lg" type="text" name="name" id="name" placeholder="Your Name" />
               <input className="rounded-md p-2 shadow-lg" type="email" name="email" id="email" placeholder="Your Email" />
-              <textarea className="rounded-md p-2 shadow-lg" name="msg" id="msg" cols="30" rows="4" placeholder="Write your message here..."></textarea>
+              <textarea className="rounded-md p-2 shadow-lg" name="message" id="msg" cols="30" rows="4" placeholder="Write your message here..."></textarea>
               <div>
                 <button type="button" class="text-black bg-yellow-400 hover:bg-yellow-600 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center">
                   Send Message
