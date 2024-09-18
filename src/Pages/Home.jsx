@@ -22,12 +22,14 @@ function Home() {
         <p className="text-white mt-2 text-lg">Drive engagement and boost your online presence with our tailored social media marketing strategies at DigiMart.</p>
         <div className="flex flex-row">
           <Link to='about'>
-            <button class="outline outline-white text-white hover:bg-white hover:text-black font-bold py-2 px-4 rounded-full mt-3">
+            <button class="outline outline-white text-white hover:bg-white hover:text-black font-bold py-2 px-4 rounded-full mt-3 transition 
+            duration-500 hover:scale-105">
               Get Started
             </button>
           </Link>
           <Link to='contact'>
-            <button class="bg-yellow-500 hover:bg-yellow-600 text-slate-900 hover:text-white font-bold py-2 px-4 rounded-full mt-3 ms-2">
+            <button class="bg-yellow-500 hover:bg-yellow-600 text-slate-900 hover:text-white font-bold py-2 px-4 rounded-full mt-3 ms-2 transition 
+            duration-500 hover:scale-110">
               Get a Free Consultation!
             </button>
           </Link>
@@ -203,7 +205,8 @@ function Home() {
           <p className=" text-gray-400 font-extralight mt-5 text-center">Contact us now and let's talk about your brand's growth potential!</p>
           <Link to='contact'>
             <button className="bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold py-2 px-4 border-b-4
-           border-yellow-500 hover:border-yellow-600 hover:text-white rounded mt-5">Grow with us!</button>
+           border-yellow-500 hover:border-yellow-600 hover:text-white rounded mt-5 transition duration-300 
+            ease-in-out delay-150 hover:scale-110">Grow with us!</button>
           </Link>
 
 

@@ -147,13 +147,13 @@ function About() {
 
           <div className="flex flex-col items-center p-0">
 
-            <div className="rounded bg-gray-600 shadow-inner hover:shadow-2xl shadow-gray-800 p-5 mt-10 w-11/12 flex flex-col items-center">
+            <div className="rounded bg-gray-600 shadow-inner hover:shadow-2xl hover:scale-105 transition duration-1000 shadow-gray-800 p-5 mt-10 w-11/12 flex flex-col items-center">
 
               <div className=" text-white font-semibold text-5xl text-center">Let's talk business</div>
               <p className=" text-gray-400 font-extralight mt-5 text-center">Contact us now and let's talk about your brand's growth potential!</p>
               <Link to='/contact'>
                 <button className="bg-yellow-400 hover:bg-yellow-500 text-slate-900 font-bold py-2 px-4 border-b-4
-           border-yellow-500 hover:border-yellow-600 hover:text-white rounded mt-5">Talk with us</button>
+           border-yellow-500 hover:border-yellow-600 hover:text-white rounded mt-5 transition duration-700 hover:scale-110">Talk with us</button>
               </Link>
 
 
