@@ -1,8 +1,19 @@
-# React + Vite
+# DigiMart (A sample Digital Marketing Website)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+**Tools used:** 
 
-Currently, two official plugins are available:
+HTML
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+TailwindCSS
+
+ReactJS
+
+AoS (Animate on Scroll)
+
+SweetAlert2
+
+
+
+**Summary:**
+
+Created a digital marketing website that contains the services offered, about page and a working contact page wherein you can send a message to the website owner via the contact page. 
